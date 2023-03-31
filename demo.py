@@ -63,8 +63,8 @@ def main():
 
 
     det = Detector()
-    #cap = cv2.VideoCapture('D:/testVedios/test1.mp4')
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture('D:/testVedios/IMG_7778.MP4')
+    #cap = cv2.VideoCapture(0)
 
     fps = int(cap.get(5))
     print('fps:', fps)
